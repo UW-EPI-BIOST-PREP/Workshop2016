@@ -49,5 +49,77 @@
 \titlepage
 \end{frame}
 
+\section{Order of operations}
+\myframe{Evaluating expressions}
+\begin{itemize}
+\item Example expression: $3(1 + 2) + 5$
+\item[]
+\item How do we evaluate the above expression? In other words:
+\begin{itemize}
+\item Which terms to we compute first?
+\item[]
+\item Are there rules for evaluating expressions?
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\myframe{Order of operations}
+\begin{itemize}
+\item Rules for evaluating expressions:
+\begin{enumerate}
+\item Parentheses
+\item Exponents
+\item Multiplication and division
+\item Addition and subtraction
+\end{enumerate}
+\item[]
+\item A handy memory device: PEMDAS --- Please Excuse My Dear Aunt Sally
+\end{itemize}
+\end{frame}
+
+\myframe{Example 1: order of operations in action!}
+\begin{itemize}
+\item Example from slide 2: $3(1 + 2) + 5$
+\item[]
+\item This notation is equivalent to $3\times (1+2) + 5$
+\item[]
+\item Apply PEMDAS: \hfill \underline{Current Expression}
+\begin{enumerate}
+\item Parentheses: add 1 and 2 \hfill $3(3) + 5$
+\item Exponents: none \hfill $3(3) + 5$
+\item Multiplication: multiply 3 and 3 \hfill $9 + 5$
+\item Division: none \hfill $9 + 5$
+\item Addition: add 9 and 5 \hfill 14
+\item Subtraction: none
+\end{enumerate}
+\item[]
+\item The final answer is 14!
+\end{itemize}
+\end{frame}
+
+\myframe{Example 2: order of operations with exponents!}
+\begin{itemize}
+\item Expression: $\dfrac{(2^2 + 5)^2}{3\times 3} + 5$
+\item[]
+\item Apply PEMDAS: \hfill \underline{Current Expression}
+\begin{enumerate}
+\item Parentheses: $2^2 + 5$. \hfill $\frac{(2^2 + 5)^2}{3\times 3} + 5$
+\item[$\cdot$] Need to apply PEMDAS again!
+\begin{enumerate}
+\item Parentheses: none \hfill $\frac{(2^2 + 5)^2}{3\times 3} + 5$
+\item Exponents: $2^2 = 4$ \hfill $\frac{(4 + 5)^2}{3\times 3} + 5$
+\item Multiplication/division: none \hfill $\frac{(4 + 5)^2}{3\times 3} + 5$
+\item Addition/subtraction: $4 + 5 = 9$ \hfill $\frac{(9)^2}{3\times 3} + 5$
+\end{enumerate}
+\item Exponents: $9^2 = 81$ \hfill $\frac{81}{3\times 3} + 5$
+\item Multiplication: $3 \times 3 = 9$ \hfill $\frac{81}{9} + 5$
+\item Division: $81/9 = 9$ \hfill $9 + 5$
+\item Addition/subtraction: $9 + 5 = 14$!
+\end{enumerate}
+\end{itemize}
+\end{frame}
+
+\section{Negative numbers}
+
 
 \end{document}
